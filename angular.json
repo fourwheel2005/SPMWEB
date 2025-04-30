@@ -25,12 +25,15 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+           "assets": [
+      "src/favicon.ico",
+       "src/assets",
+  {
+    "glob": "googlee0df7bcb1d134c19.html",
+    "input": "src/assets",
+    "output": "/"
+  }
+],
             "styles": [
               "src/styles.scss"
             ],
