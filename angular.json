@@ -82,15 +82,21 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
-           "assets": [
+         "assets": [
   "src/favicon.ico",
   "src/assets",
   {
     "glob": "sitemap.xml",
     "input": "src/assets",
     "output": "/"
+  },
+  {
+    "glob": "google0e0df7bcbd13d4c19.html",
+    "input": "src/assets",
+    "output": "/"
   }
-],
+]
+,
 
             "styles": [
               "src/styles.scss"
